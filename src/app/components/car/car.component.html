@@ -1,0 +1,18 @@
+<table class="table">
+    <thead>
+        <th>Id nomresi</th>
+        <th>Avtomobilin modeli</th>
+        <th>Marka Id si</th>
+        <th>Reng Id si</th>
+        <th>Istehsal ili</th>
+        <th>Qiymeti</th>
+    </thead>
+    <tr *ngFor="let car of cars">
+        <td>{{car.carId}}</td>
+        <td>{{car.carName}}</td>
+        <td>{{car.brandId}}</td>
+        <td>{{car.colorId}}</td>
+        <td>{{car.modelYear}}</td>
+        <td>{{car.dailyPrice}}</td>
+    </tr>
+</table>
